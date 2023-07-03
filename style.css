@@ -1,0 +1,58 @@
+body{
+    background-color: rgba(224, 230, 234, 0.933);
+
+display: flex;
+align-items: center; 
+justify-content: center;
+}
+
+.head{
+    align-items: center;
+    justify-content: center;
+}
+.container{ display: flex;
+    flex-direction: column;
+background-color: red;
+margin:100px;
+padding: 100px;
+}
+.top{
+    display: flex;
+    align-items: center; 
+justify-content: center;
+gap : 50px;
+}
+.frame{
+    width: 800px;
+    height: 500px;
+    overflow :hidden
+}
+
+.arrow{
+    height: 150px;
+}
+.image{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.bottom{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+.slider{
+    display: flex;
+    transition: 1s;
+}
+.button{
+    
+    width: 15px;
+    height: 15px;
+    border-radius:  50%;
+border: 2px solid white;
+
+}
